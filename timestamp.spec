@@ -1,6 +1,3 @@
-#
-# Conditional build:
-#
 Summary:	A pipe that timestamps lines
 Summary(pl):	Potok dodaj±cy znaczniki czasowe do wszystkich linii
 Name:		timestamp
@@ -8,10 +5,11 @@ Version:	1.1
 Release:	1
 License:	BSD
 Group:		Applications/Text
-#Icon:		-
 Source0:	http://math.smsu.edu/~erik/files/%{name}-%{version}.tar.gz
-# Source0-md5:	-
+# Source0-md5:	ba90e61f1f7641cd2acb2c4ff3ccd6b4
 URL:		http://math.smsu.edu/~erik/software.php?id=95
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
