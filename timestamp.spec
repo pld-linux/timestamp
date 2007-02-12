@@ -1,5 +1,5 @@
 Summary:	A pipe that timestamps lines
-Summary(pl):	Potok dodaj±cy znaczniki czasowe do wszystkich linii
+Summary(pl.UTF-8):   Potok dodajÄ…cy znaczniki czasowe do wszystkich linii
 Name:		timestamp
 Version:	1.1
 Release:	1
@@ -18,12 +18,12 @@ The time is set when the first character of the line is received, and the
 utility is capable of coping with CR repeats fairly well (it won't
 over-write or update the timestamp).
 
-%description -l pl
-Timestamp to narzêdzie do modyfikowania tekstu w potoku, które dodaje
-do ka¿dej linii znacznik czasowy. Znaczniki wskazuj± czas otrzymania
+%description -l pl.UTF-8
+Timestamp to narzÄ™dzie do modyfikowania tekstu w potoku, ktÃ³re dodaje
+do kaÅ¼dej linii znacznik czasowy. Znaczniki wskazujÄ… czas otrzymania
 pierwszego znaku w linii. Timestamp dobrze radzi sobie z nadmiarowymi
 znakami powrotu karetki (CR) - nie nadpisuje przy nich ani nie
-aktualizuje znaczników.
+aktualizuje znacznikÃ³w.
 
 %prep
 %setup -q
