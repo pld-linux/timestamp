@@ -1,5 +1,5 @@
 Summary:	A pipe that timestamps lines
-Summary(pl.UTF-8):   Potok dodający znaczniki czasowe do wszystkich linii
+Summary(pl.UTF-8):	Potok dodający znaczniki czasowe do wszystkich linii
 Name:		timestamp
 Version:	1.1
 Release:	1
